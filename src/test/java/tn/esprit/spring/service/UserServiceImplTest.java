@@ -29,7 +29,7 @@ public class UserServiceImplTest {
 		public void testRetrieveAllUsers() {
 			List<User> listUsers = us.retrieveAllUsers(); 
 			// if there are 7 users in DB : 
-			Assert.assertEquals(7, listUsers.size());
+			Assert.assertEquals(8, listUsers.size());
 		}
 		
 		
@@ -59,8 +59,8 @@ public class UserServiceImplTest {
 		
 		@Test
 		public void testDeleteUser() {
-			us.deleteUser("63");
-			Assert.assertNull(us.retrieveUser("63"));
+			us.deleteUser("64");
+			Assert.assertNull(us.retrieveUser("64"));
 
 		}
 		

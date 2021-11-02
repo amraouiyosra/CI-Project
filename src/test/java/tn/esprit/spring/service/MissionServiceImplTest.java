@@ -29,7 +29,7 @@ public class MissionServiceImplTest {
 		public void testRetrieveAllMission() {
 			List<Mission> listMission = ms.retrieveAllMission(); 
 			// if there are 7 users in DB : 
-			Assert.assertEquals(6, listMission.size());
+			Assert.assertEquals(7, listMission.size());
 		}
 		
 		
@@ -55,8 +55,8 @@ public class MissionServiceImplTest {
 		
 		@Test
 		public void testDeleteMission() {
-			ms.deleteMission(63);
-			Assert.assertNull(ms.retrieveMission(63));
+			ms.deleteMission(64);
+			Assert.assertNull(ms.retrieveMission(64));
 		}
 		
 		// 5 tests unitaires  
