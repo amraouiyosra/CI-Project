@@ -61,8 +61,8 @@ public class EntrepriseServiceImplTest {
 	
 	@Test
 	public void testDeleteEntreprise() {
-		en.deleteEntreprise("54");
-		Assert.assertNull(en.retrieveEntreprise("54"));
+		en.deleteEntreprise("55");
+		Assert.assertNull(en.retrieveEntreprise("55"));
 	}
 
 	// 5 tests unitaires  
